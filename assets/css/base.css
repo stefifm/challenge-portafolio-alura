@@ -1,0 +1,43 @@
+@import url(reset.css);
+@import url(variables.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--raleway);
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.btn {
+  background: var(--background-blanco);
+  box-sizing: border-box;
+  display: inline-block;
+  width: fit-content;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: var(--color-text-btn);
+  transition: all 1s ease;
+}
+
+.btn:hover {
+  background: var(--color-background-btn-effect);
+  color: var(--background-blanco);
+}
+
+.btn-primary {
+  background: var(--color-background-btn-primary);
+  color: var(--background-blanco);
+}
+
+.btn-primary:hover {
+  border: 2px solid var(--color-background-btn-primary);
+  background: var(--background-blanco);
+  color: var(--color-text-btn);
+}

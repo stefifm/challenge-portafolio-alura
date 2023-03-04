@@ -1,0 +1,96 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  overflow-x: hidden;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 2rem;
+}
+
+.banner__img{
+  filter: brightness(20%);
+  background: url('../../img/background-banner.jpg') no-repeat center / cover;
+  width: 100vw;
+  height: 100vh
+}
+
+.hero {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2.75rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.hero__img__profile {
+  margin-bottom: 2rem;
+  height: 15.125rem;
+  width: 15.125rem;
+  border-radius: 2.75rem;
+  box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.3);
+  border: 0.4rem solid #c1c0b9;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero__text__title {
+  font-weight: 700;
+  color: var(--color-banner-title);
+  font-size: 1.375rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+}
+
+.hero__text__paragraph {
+  margin-bottom: 1rem;
+  color: var(--background-blanco);
+  font-weight: 400;
+  line-height: 1.525rem;
+}
+
+.hero__list__container {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.hero__text__list{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero__text__list__item {
+  color: var(--color-text);
+}
+
+
+.uil {
+  padding-right: 0.3rem;
+  font-size: 3rem;
+  
+}
+
+.hero__text__list__item__link--curriculum {
+  font-weight: 700;
+  font-size: 3rem;
+
+}
