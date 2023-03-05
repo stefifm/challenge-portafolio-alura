@@ -35,7 +35,7 @@
 
   border: 1rem solid var(--background-blanco);
   overflow: hidden;
-  box-shadow: 0 0 1.6rem purple;
+  box-shadow: 0 0 1.6rem var(--color-background-btn-primary);
   transition: all 400ms ease;
 }
 
@@ -45,7 +45,13 @@
 
 .portfolio__project__img img {
   width: 100%;
+  transform: 0;
+  transition: all 5s ease;
  
+}
+
+.portfolio__project__img img:hover {
+  transform: translateY(calc(-100% + 15rem));
 }
 
 .portfolio__description {
