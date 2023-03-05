@@ -19,3 +19,11 @@ const closeMenu = () => {
 
 openMenuBtn.addEventListener('click', openMenu)
 closeMenuBtn.addEventListener('click', closeMenu)
+
+// Close Menu after select a section
+
+if (window.innerWidth < 1024) {
+  document.querySelectorAll('.menu__list', 'menu__item').forEach(navItem => {
+    navItem.addEventListener('click', closeMenu)
+  })
+}
