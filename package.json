@@ -1,0 +1,30 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "- Armado del HTML y CSS: Menú, Banner, Sobre Mí, Skills, Hobbies, Formación Académica y Experiencia en Programación",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefifm/challenge-portafolio-alura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefifm/challenge-portafolio-alura/issues"
+  },
+  "homepage": "https://github.com/stefifm/challenge-portafolio-alura#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends":[
+      "standard"
+    ]    
+  
+  }
+}
