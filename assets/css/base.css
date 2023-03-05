@@ -24,6 +24,9 @@ body {
   cursor: pointer;
   color: var(--color-text-btn);
   transition: all 1s ease;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .btn:hover {
@@ -40,4 +43,8 @@ body {
   border: 2px solid var(--color-background-btn-primary);
   background: var(--background-blanco);
   color: var(--color-text-btn);
+}
+
+.btn-form {
+  font-size: 1.250rem;
 }
