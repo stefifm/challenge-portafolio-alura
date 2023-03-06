@@ -1,4 +1,4 @@
-
+// Función para validar cada input
 export function valida (input) {
   const tipoInput = input.dataset.tipo
   if (validadores[tipoInput]) {
@@ -13,6 +13,8 @@ export function valida (input) {
     input.parentElement.querySelector('.input-message-error').innerHTML = mostrarError(tipoInput, input)
   }
 }
+
+// Función para validar el textarea
 export function validaText (textarea) {
   const tipoInput = textarea.dataset.tipo
   if (validadores[tipoInput]) {
@@ -28,6 +30,9 @@ export function validaText (textarea) {
   }
 }
 
+// Función para mostrar un mensaje de error
+// Utilizando el array de Tipo de Errores
+
 function mostrarError (tipoInput, input) {
   let mensaje = ''
   tipoErrores.forEach(error => {
@@ -39,9 +44,15 @@ function mostrarError (tipoInput, input) {
   return mensaje
 }
 
+// Objeto validadores. Se usará en las funciones
+// valida y validaText
 const validadores = {
+  // Se le asigna al data-tipo (atributo HTML)
+  // la validación sobre el input o textarea
   message: (textarea) => validarTextarea(textarea)
 }
+
+// Array de Tipo de Errores
 
 const tipoErrores = [
   'valueMissing',
@@ -49,6 +60,8 @@ const tipoErrores = [
   'patternMismatch',
   'customError'
 ]
+
+// Objeto mensaje de errores
 
 const mensajeError = {
   nombre: {
@@ -69,6 +82,9 @@ const mensajeError = {
   }
 
 }
+
+// Función para crear un mensaje de error personalizado
+// del textarea
 
 function validarTextarea (textarea) {
   const textLength = textarea.parentElement.querySelector('textarea').value.length
