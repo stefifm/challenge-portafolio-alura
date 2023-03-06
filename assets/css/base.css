@@ -30,7 +30,7 @@ body {
 }
 
 .btn:hover {
-  background: var(--color-background-btn-effect);
+  background: var(--color-fuente-nav);
   color: var(--background-blanco);
 }
 
@@ -47,6 +47,12 @@ body {
 
 .btn-form {
   font-size: 1.250rem;
+}
+
+.skills__title, .contacto__text__title, .formaciones__title, .hobbies__title, .portfolios__title{
+  font-size: 1.9rem;
+  color: var(--color-title-section);
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1024px) {

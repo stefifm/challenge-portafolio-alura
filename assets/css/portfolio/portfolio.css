@@ -5,9 +5,7 @@
 
 .portfolios__title {
   padding-bottom: 1rem;
-  font-size: 1.375rem;
-  color: #455d7a;
-  font-weight: 700;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -63,7 +61,7 @@
 }
 
 .portfolio__description__title {
-  color: #455d7a;
+  color: var(--color-title-section);
   font-weight: 700;
   font-size: 1.2rem;
 }
