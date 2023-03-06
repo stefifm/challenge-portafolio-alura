@@ -73,7 +73,7 @@ const mensajeError = {
 function validarTextarea (textarea) {
   const textLength = textarea.parentElement.querySelector('textarea').value.length
   let msgError = ''
-  if (textLength >= 300) {
+  if (textLength > 300) {
     msgError = 'No debe superar los 300 caracteres'
   }
   textarea.setCustomValidity(msgError)
