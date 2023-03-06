@@ -13,3 +13,10 @@ inputs.forEach(input => {
 textarea.addEventListener('blur', (text) => {
   validaText(text.target)
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+  const formulario = document.querySelector('.form')
+  formulario.addEventListener('submit', () => {
+    formulario.reset()
+  })
+})
