@@ -13,7 +13,7 @@
     #480048,
     #c04848
   );
-  color: var(--background-blanco);
+  color: var(--color-blanco);
 }
 
 .header__logo {
@@ -85,7 +85,7 @@
 }
 
 .menu__link:hover {
-  color: var(--color-fuente-nav);
+  color: var(--color-dark);
   text-decoration: var(--line-color) double underline;
   background: var(--background-light);
 }
@@ -94,7 +94,7 @@
   display: inline-block;
   margin-right: 1.4rem;
   background: transparent;
-  color: var(--background-blanco);
+  color: var(--color-blanco);
   cursor: pointer;
   border: none;
   font-size: 2.4rem;

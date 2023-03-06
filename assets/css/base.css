@@ -15,7 +15,7 @@ body {
 }
 
 .btn {
-  background: var(--background-blanco);
+  background: var(--color-blanco);
   box-sizing: border-box;
   display: inline-block;
   width: fit-content;
@@ -30,18 +30,18 @@ body {
 }
 
 .btn:hover {
-  background: var(--color-fuente-nav);
-  color: var(--background-blanco);
+  background: var(--color-dark);
+  color: var(--color-blanco);
 }
 
 .btn-primary {
   background: var(--color-background-btn-primary);
-  color: var(--background-blanco);
+  color: var(--color-blanco);
 }
 
 .btn-primary:hover {
   border: 2px solid var(--color-background-btn-primary);
-  background: var(--background-blanco);
+  background: var(--color-blanco);
   color: var(--color-text-btn);
 }
 
