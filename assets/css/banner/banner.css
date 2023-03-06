@@ -60,7 +60,7 @@
 
 .hero__text__paragraph {
   margin-bottom: 1rem;
-  color: var(--background-blanco);
+  color: var(--color-blanco);
   font-weight: 400;
   line-height: 1.525rem;
 }

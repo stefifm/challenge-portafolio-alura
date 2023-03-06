@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
 
-  border: 1rem solid var(--background-blanco);
+  border: 1rem solid var(--color-blanco);
   overflow: hidden;
   box-shadow: 0 0 1.6rem var(--color-background-btn-primary);
   transition: all 400ms ease;
