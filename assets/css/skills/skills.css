@@ -40,3 +40,29 @@
   color: #455d7a;
   margin-top: 0.5rem;
 }
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+
+  .skill__img {
+    width: 30%;
+  }
+}
+
+/* PARA PC */
+@media screen and (min-width: 1024px) {
+
+  .skill {
+    width: 20%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 1824px) {
+  .skill {
+    width: 15%;
+  }
+}

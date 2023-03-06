@@ -170,3 +170,47 @@ input:hover {
   margin-top: 0.5rem;
   padding-left: 0.5rem;
 }
+
+/* PARA TABLETS  */
+
+@media screen and (min-width: 768px) {
+  .contacto {
+    align-items: flex-start;
+    padding-right: 2rem;
+    padding-left: 1rem;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+ .input {
+    width: 100%;
+  }
+
+  .textarea-input {
+    width: 97.5%;
+  }
+}
+/* PARA PC  */
+
+@media screen and (min-width: 1024px) {
+  .contacto {
+    flex-direction: row;
+  }
+
+  .contacto__text {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .contacto__text__title {
+    font-size: 3.25rem;
+  }
+
+  .contacto__text__paragraph {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}

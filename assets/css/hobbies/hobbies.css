@@ -42,3 +42,25 @@
   color: #455d7a;
   margin-top: 0.5rem;
 }
+
+/*TABLETS*/
+
+@media screen and (min-width: 768px) {
+  .hobbie {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .hobbie__img {
+    width: 25%;
+    margin-top: 0;
+  }
+}
+/* PARA PC */
+
+@media screen and (min-width: 768px) {
+  .hobbie {
+    width: 27%;
+    padding-top: 2rem;
+  }
+
+}

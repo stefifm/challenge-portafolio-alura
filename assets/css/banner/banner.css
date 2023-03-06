@@ -7,9 +7,9 @@
   padding-left: 2rem;
   padding-right: 2rem;
   position: relative;
-  overflow-x: hidden;
-  z-index: -1;
-  width: 100vw;
+  overflow: hidden;
+
+  width: 100%;
   height: 100vh;
   margin-top: 2rem;
 }
@@ -31,7 +31,7 @@
   flex-direction: column;
   border-radius: 2.75rem;
   position: absolute;
-  z-index: 2;
+  
 }
 
 .hero__img__profile {
@@ -66,12 +66,6 @@
   line-height: 1.525rem;
 }
 
-.hero__list__container {
-  width: 100%;
-  height: 100%;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem
-}
 
 .hero__text__list{
   display: flex;
@@ -81,6 +75,10 @@
 
 .hero__text__list__item {
   color: var(--color-text);
+  
+}
+.hero__text__list__item__link {
+  cursor: pointer;
 }
 
 
@@ -88,10 +86,82 @@
   padding-right: 0.3rem;
   font-size: 2.8rem;
   
+  
 }
 
 .hero__text__list__item__link--curriculum {
   font-weight: 700;
   font-size: 3rem;
 
+}
+
+/* PARA TABLETS */
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 3rem;
+  }
+
+  .hero__text__title {
+    font-size: 1.4rem;
+  }
+
+  .hero__text__paragraph {
+    font-size: 1.020rem;
+  }
+}
+/* PARA PC */
+@media screen and (min-width: 1024px) {
+  .banner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero {
+    padding: 3rem;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  
+  .hero__text {
+    width: 65%;
+    margin-right: 2rem;
+  }
+  .hero__text__title {
+    font-size: 3.25rem;
+    line-height: 1;
+  }
+
+  .hero__text__paragraph {
+    font-size: 1.375rem;
+    line-height: 1.2;
+  }
+
+  .hero__text__list {
+    margin-right: auto;
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  
+  .hero__text {
+    width: 75%;
+    margin-right: 2rem;
+  }
+
+  .hero__text__list {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 1824px) {
+  .hero {
+    padding-right: 7rem;
+  }
+
+  .hero__text {
+    margin-right: 5rem;
+  }
+
+  .hero__text__list {
+    margin-left: 5rem;
+  }
 }

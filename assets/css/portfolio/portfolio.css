@@ -47,7 +47,6 @@
   width: 100%;
   transform: 0;
   transition: all 5s ease;
- 
 }
 
 .portfolio__project__img img:hover {
@@ -77,4 +76,62 @@
 .portfolio__description__btn {
   display: flex;
   gap: 1rem;
+}
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+  .portfolios {
+    padding-right: 3rem;
+  }
+
+  .portfolio__description {
+    margin-right: 24rem;
+    margin-top: 1rem;
+  }
+
+  .portfolio__project__img {
+    width: 90%;
+    height: 20rem;
+  }
+
+  .portfolio__project__img img:hover {
+    transform: translateY(calc(-100% + 20rem));
+  }
+}
+/* PARA PC */
+
+@media screen and (min-width: 1024px) {
+  .portfolios__projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .portfolio__project {
+    flex-direction: row;
+    padding-left: 2rem;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .portfolio__project:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .portfolio__description {
+    margin-right: 5rem;
+    margin-left: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .portfolio__project {
+    padding-left: 3rem;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1824px) {
+  .portfolio__project {
+    width: 70%;
+  }
 }

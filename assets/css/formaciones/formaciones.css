@@ -50,3 +50,57 @@
   color: #352f44;
   padding-left: 1rem;
 }
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+  .formacion__cards {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40rem;
+  }
+
+  .formacion__card {
+    width: 100%;
+  }
+
+  .formacion__img{
+    height: 8.700rem;
+  }
+
+  .formacion__title {
+    padding: 1rem;
+  }
+
+  .formacion__text {
+    padding-bottom: 1rem;
+  }
+}
+
+/* PARA PC */
+@media screen and (min-width: 1024px) {
+  .formacion__cards {
+    padding-top: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    gap: 3rem;
+  }
+
+  .formacion__card {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .formacion__cards {
+    width: 75%;
+
+  }
+
+}
+
+@media screen and (min-width: 1824px) {
+  .formacion__cards {
+    width: 65%;
+  }
+}
