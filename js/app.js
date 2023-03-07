@@ -20,12 +20,3 @@ inputs.forEach(input => {
 textarea.addEventListener('blur', (text) => {
   validaText(text.target)
 })
-
-// Reseteando el formulario tras el envío de los datos
-
-document.addEventListener('DOMContentLoaded', () => {
-  const formulario = document.querySelector('.form')
-  formulario.addEventListener('submit', () => {
-    formulario.reset()
-  })
-})
